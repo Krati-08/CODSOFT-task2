@@ -119,21 +119,7 @@ nav ul li a:hover{
     gap: 4em;
     
 }
-/* .ic{
-    margin-left:50px;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background: transparent;
-    border: 2px solid rgb(193, 75, 42);
-     border-radius: 50%;
-     font-size: 20px;
-     color: rgb(193, 75, 42);
-     text-decoration: none;
-     margin: 30px 15px 30px 50px;
-} */
+
 .res{
     text-decoration: none;
     color: rgb(193, 75, 42) ;
@@ -213,6 +199,7 @@ hr.line{
 .title{
     color: rgb(193, 75, 42);
     padding: 20px;
+    margin-left: 500px;
 }
 .sklist{
     display: grid;
@@ -248,4 +235,61 @@ hr.line{
 .contact{
     color: white;
 }
+.vert{
+    display: flex;
+}
+.left{
+    flex-basis: 40%;
+}
+.right{
+    flex-basis: 60%;
+}
+.left h1{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.left p{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 20px;
+}
+.sub span{
+    color:rgb(193, 75, 42) ;
+    padding: 10px;
+}
+.left p span{
+    padding: 5px;
+}
+.icons{
+    margin-left:60px;
+    margin-top: 30px;
+}
+.icons a{
+    margin-left: 10px;
+    font-size: 40px;
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(193, 75, 42) ;
+    transition: transform 0.2s;
+}
+.icons a:hover{
+   color: beige;
+   transform: translateY(-5px);
+}
+
+/* .ic{
+    margin-left:50px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(193, 75, 42);
+     border-radius: 50%;
+     font-size: 20px;
+     color: rgb(193, 75, 42);
+     text-decoration: none;
+     margin: 30px 15px 30px 50px;
+} */
 
