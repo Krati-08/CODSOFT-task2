@@ -6,6 +6,11 @@
 }
 html{
     scroll-behavior: smooth;
+    scrollbar-width: thin;
+    scrollbar-color:rgb(193, 75, 42) rgba(0, 0, 0, 0.904);
+}
+html::-webkit-scrollbar{
+    width: 10px;
 }
 body{
     background-color: rgba(0, 0, 0, 0.904);
