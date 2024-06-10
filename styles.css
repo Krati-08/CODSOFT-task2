@@ -16,8 +16,9 @@ body{
     background-color: rgba(0, 0, 0, 0.904);
     color: bl;
 }
+
 #head{
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     background-image: url(https://images.unsplash.com/photo-1565300667498-2843c56b4603?q=80&w=1930&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-size: cover;
@@ -35,7 +36,6 @@ nav{
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: #302e2f;
-   
     position: fixed;
     top: 0;
     width: 100%;
@@ -339,4 +339,56 @@ form input,form textarea{
     font-size: 15x;
     margin-top: -20x;
     display: block;
+ }
+ @media(max-width:600px){
+    .container{
+        width: 100vw;
+        height: 100vh;
+    }
+    #head{
+        width: 100vw;
+        height: 100vh;
+
+    }
+    nav{
+        width: 100vw;
+        height: 9vh;
+       display: flex;
+    }
+    nav ul li{
+        margin: 0 0 0 0;
+        padding: 3px;
+          
+    }
+    nav ul li a{
+        font-size: 14px;
+    }
+    nav img{
+        width: 60px ;
+        height: 20px;
+    }
+    .maintext h3{
+        font-size: 1.7em; 
+        margin-left: 1em;
+        display: flex;
+    }
+  
+    .maintext h1{
+        font-size: 40px;
+        margin-left: 0.7em;
+    }
+    .maintext p{
+        font-size: 1em;
+        margin-left: 2em;
+        display: flex;
+    }
+    .homeimg img{
+        height: 18vh;
+        width:37vw ;
+        display: flex;
+        margin-left: -10em;
+        margin-top: -10em;
+    }
+  
+
  }
