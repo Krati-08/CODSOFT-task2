@@ -232,7 +232,7 @@ hr.line{
     transform: translateY(-10px);
 
 }
-#project{
+/* #project{
     background-image:url(https://images.unsplash.com/photo-1588345921523-c2dcdb7f1dcd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) ;
 }
 .prj{
@@ -242,7 +242,7 @@ hr.line{
 }
 .prj span{
     color: black;
-}
+} */
 #contact{
     color: white;
     
@@ -290,9 +290,11 @@ hr.line{
 }
 .icon.btn2 {
     display: inline-block;
-    width: 270px;
+    width: 170px;
     margin-left: 80px;
     margin-top: 100px;
+    align-items: center;
+    justify-content: center;
 
 }
 .right form{
@@ -312,7 +314,7 @@ form input,form textarea{
      font-size: 15px;
      border-radius: 5px;
 }
- form .btn3{
+ form.btn3{
     padding: 10px;
     margin-top: 10px;
     margin-left: 170px;
@@ -358,11 +360,12 @@ form input,form textarea{
     }
     nav ul li{
         margin: 0 0 0 0;
-        padding: 3px;
+       
           
     }
     nav ul li a{
-        font-size: 14px;
+        font-size: 0.8em;
+        padding-right: 0.6em;
     }
     nav img{
         width: 60px ;
@@ -379,7 +382,7 @@ form input,form textarea{
         margin-left: 0.7em;
     }
     .maintext p{
-        font-size: 1em;
+        font-size: 0.7em;
         margin-left: 2em;
         display: flex;
     }
@@ -407,8 +410,70 @@ form input,form textarea{
        font-size: 1em;
     }
     .col2 p{
-        font-size: 0.3em;
+        font-size: 0.5em;
     }
+    #skills {
+        width: 100vw;
+    }
+    .sec3 h1{
+        margin-left: 4.5em;
+    }
+    .sklist{
+        width: 1em ;
+        margin-left: 4em;
+    }
+    .left h1{
+        font-size: 0.8rem;
+        margin-left: 1em;
+        margin-top: 5em;
+    }
+    .left p{
+        font-size: 0.5rem;
+        margin-left: 2em;
+        margin-top: 3em;
+    }
+    .icons{
+        margin-left: 1em;
+    }
+    .icons a{
+        font-size: 1em;
+        display: flex;
+        padding: 0.5rem;
+        
+    }
+    .icon.btn2 {
+        width: 2em;
+        height: 2em;
+        font-size: 0.5rem;
+        margin-top: 7rem;
+        margin-left: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+
+    }
+    .right{
+        margin-left: 2rem;
+    }
+    .right form{
+        width: 100vw;
+    
+    }
+    form input,form textarea{
+        width: 50vw;
+        font-size: 0.5rem;
+    }
+    .icon.btn3{
+        width: 1rem;
+        height: 2rem;
+        display: flex;
+        font-size: 0.7em;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
   
 
  }
