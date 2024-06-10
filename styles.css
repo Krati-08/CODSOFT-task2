@@ -344,6 +344,7 @@ form input,form textarea{
     .container{
         width: 100vw;
         height: 100vh;
+        display: flex;
     }
     #head{
         width: 100vw;
@@ -388,6 +389,25 @@ form input,form textarea{
         display: flex;
         margin-left: -10em;
         margin-top: -10em;
+    }
+    .row{
+        display: flex;
+        gap: 2em;
+    }
+    .col1 img{
+        width:6em ;
+        height: 8em;
+        margin: 20vh 0 0 0;
+    }
+    .col2{
+        margin-right: 10vw;
+    }
+    
+    .col2 h1{
+       font-size: 1em;
+    }
+    .col2 p{
+        font-size: 0.3em;
     }
   
 
